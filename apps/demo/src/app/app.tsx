@@ -1,14 +1,9 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.css';
-
-import NxWelcome from './nx-welcome';
+import { Autocomplete } from '@practice-react/autocomplete';
 
 export function App() {
-  return (
-    <div>
-      <NxWelcome title="demo" />
-    </div>
-  );
+  return <Autocomplete />;
 }
 
 export default App;
