@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@practice-react/autocomplete": ["libs/autocomplete/src/index.ts"]
+      "@practice-react/autocomplete": ["libs/autocomplete/src/index.ts"],
+      "@practice-react/hooks": ["libs/shared/hooks/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
