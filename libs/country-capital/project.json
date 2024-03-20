@@ -1,0 +1,8 @@
+{
+  "name": "country-capital",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/country-capital/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {}
+}
