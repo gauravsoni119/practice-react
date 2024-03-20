@@ -8,6 +8,7 @@ const ROUTES = [
   { id: 2, to: 'timer', text: 'Timer' },
   { id: 3, to: 'accordion', text: 'Accordion' },
   { id: 4, to: 'password-checker', text: 'Password Checker' },
+  { id: 5, to: 'country-capital', text: 'Country Capital' },
 ] as const;
 
 export function Layout(props: LayoutProps) {
