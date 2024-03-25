@@ -19,7 +19,6 @@ export function AccordionHeader({ children }: AccordionHeaderProps) {
       return;
     }
     setActiveIds((ids) => [...ids, id]);
-    console.log();
   };
   return (
     <div

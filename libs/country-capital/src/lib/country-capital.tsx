@@ -55,7 +55,6 @@ export function CountryCapital({ countryMap }: CountryCapitalProps) {
 
   const handleSelection = (option: string) => {
     if (selection.length === 1 && selection.includes(option)) {
-      console.log(selection, option, '$$');
       return null;
     }
     const newSelection = selection.concat(option);
