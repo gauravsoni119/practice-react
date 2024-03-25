@@ -38,7 +38,7 @@
         "bundler": "vite"
       },
       "component": {
-        "style": "css"
+        "style": "none"
       },
       "library": {
         "style": "css",

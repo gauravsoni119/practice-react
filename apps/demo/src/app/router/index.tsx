@@ -4,6 +4,7 @@ import Layout from '../layout/layout';
 import AccordionDemo from '../pages/accordion-demo/accordion-demo';
 import CountryCapitalDemo from '../pages/country-capital-demo/country-capital-demo';
 import PasswordCheckerDemo from '../pages/password-checker-demo/password-checker-demo';
+import TabsDemo from '../pages/tabs-demo/tabs-demo';
 import Timer from '../timer/timer';
 
 export default createBrowserRouter([
@@ -30,6 +31,10 @@ export default createBrowserRouter([
       {
         path: 'country-capital',
         element: <CountryCapitalDemo />,
+      },
+      {
+        path: 'tabs',
+        element: <TabsDemo />,
       },
     ],
   },
