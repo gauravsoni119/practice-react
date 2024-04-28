@@ -18,7 +18,8 @@
       "@practice-react/autocomplete": ["libs/autocomplete/src/index.ts"],
       "@practice-react/country-capital": ["libs/country-capital/src/index.ts"],
       "@practice-react/hooks": ["libs/shared/hooks/src/index.ts"],
-      "@practice-react/ui": ["libs/shared/ui/src/index.ts"]
+      "@practice-react/ui": ["libs/shared/ui/src/index.ts"],
+      "@practice-react/utils": ["libs/shared/utils/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

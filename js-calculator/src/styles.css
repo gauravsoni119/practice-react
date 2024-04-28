@@ -1,0 +1,66 @@
+#calculator {
+  width: 300px;
+  background-color: #ccc;
+  text-align: center;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  box-shadow: 0 0 3px;
+}
+
+#output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#output > span,
+#output > textarea {
+  display: inline-flex;
+  flex: 100%;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#output > textarea {
+  border: 2px solid #eee;
+  background: beige;
+  box-shadow: 0 0 3px;
+  min-height: 60px;
+  resize: none;
+  font-size: 1.8em;
+  letter-spacing: 2.5px;
+}
+
+.panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.panel:last-child {
+  /* margin-bottom: 0; */
+}
+
+.panel span {
+  display: inline-block;
+  padding: 1rem;
+  background-color: orange;
+  border-radius: 50%;
+  width: 100%;
+  font-size: 2rem;
+}
+
+.panel:last-child span:nth-child(1) {
+  flex: 1 1 25%;
+}
+
+.panel:last-child span:nth-child(2) {
+  flex: 1 1 25%;
+}
+
+.panel .equal {
+  border-radius: 5%;
+}
