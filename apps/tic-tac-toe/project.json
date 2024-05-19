@@ -1,0 +1,8 @@
+{
+  "name": "tic-tac-toe",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/tic-tac-toe/src",
+  "tags": [],
+  "targets": {}
+}

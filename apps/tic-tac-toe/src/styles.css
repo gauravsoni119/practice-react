@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+.container {
+  width: 350px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.option-selection-area {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.option-selection-area h3 {
+  flex: 1 1 100%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.form-group {
+  display: inline-flex;
+  align-items: center;
+}
+
+.game-area {
+  margin-top: 10px;
+}
+
+.row {
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+
+.row button {
+  padding: 1rem;
+  border: 1px solid black;
+  margin: 0;
+  width: 50px;
+  height: 50px;
+  overflow: visible;
+  background: transparent;
+}
+
+.result {
+  text-align: center;
+  font-size: 2rem;
+  color: green;
+}
